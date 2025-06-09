@@ -1,31 +1,80 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>비어뮤지엄 오디오 가이드 – 11 우정의 무거운 가방</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>성보박물관 대자대비 오디오 가이드 ⑪</title>
   <style>
-    body { font-family: sans-serif; margin: 20px; background: #f9f9f9; }
-    .card { background: white; border: 1px solid #ddd; border-radius: 6px; max-width: 600px; margin: auto; padding: 20px; }
-    .card img { max-width: 100%; border-radius: 4px; }
-    .card h2 { margin-top: 0; }
-    .card audio { width: 100%; margin-top: 16px; }
-    .card p { line-height: 1.6; }
-    .qr { text-align: center; margin-top: 20px; }
+    :root {
+      font-size: 18px; /* ✅ 모든 디바이스에서 글자 크게 */
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      margin: 1rem;
+      background: #f6f6f6;
+      color: #222;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1.2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      border: 1px solid #ddd;
+    }
+
+    .card h2 {
+      font-size: 1.4rem;
+      margin: 0 0 0.8rem 0;
+    }
+
+    .card p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .card audio {
+      display: block;
+      width: 100%;     /* ✅ 전체 너비로 고정 */
+      height: 42px;    /* ✅ iOS에서 최소한 표시되게 */
+      margin-top: 1rem;
+    }
+.card img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+ }
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h2>⑪ 우정의 무거운 가방</h2>
-    <img src="images/uw_prison_bag.jpg" alt="우정의 무거운 가방 현판">
-    <p>우정의 무거운 가방은 철로 만든 여행용 가방입니다. 철로 만든 가방의 무게는 이 가방을 들고서는 어디도 갈 수 없는 현실, 고행길의 이 시대를 대변합니다. 작품은 만지고, 들어보실 수 있습니다. 작가의 작품 해설이 별도로 부착되어 있습니다. 작가의 글을 통해 공감해보시기 바랍니다.</p>
-    <audio controls src="audio/11_wooJeong_bag.mp3">
-      브라우저가 audio 태그를 지원하지 않습니다.
-    </audio>
-    <div class="qr">
-      <img src="qr_11_300dpi.png" alt="QR코드 – 11번" width="200">
-      <p>QR코드를 찍어 전용 페이지로 이동하세요.</p>
+    <h1>성보박물관 대자대비 오디오 가이드 ⑪</h1>
+
+    <div class="card">
+        <p>우징의 무거운 가방은 철로 만든 여행용 가방입니다. 철로 만든 가방의 무게는 이 가방을 들고서는 어디도 갈 수 없는 현실, 고행길의 이 시대를 대변합니다. 작품은 만지고, 들어보실 수 있습니다.
+작가의 작품 해설이 별도로 부착되어있습니다. 작가의 글을 통해 공감해보시기 바랍니다.</p>
+        <audio controls>
+            <source src="audio/jogye_gate.mp3" type="audio/mpeg">
+            오디오를 지원하지 않는 브라우저입니다.
+        </audio>
     </div>
-  </div>
+    
 </body>
 </html>
